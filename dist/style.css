@@ -106,7 +106,7 @@ body {
   display: none;
 }
 
-@media (max-width: 668px) {
+@media (max-width: 812px) {
   .logo > img {
     display: none;
   }
@@ -122,7 +122,12 @@ body {
   }
 
   .home__main {
-    object-fit: contain !important;
+    background-color: #161515;
+    background-image: none !important;
+  }
+
+  .home__main::after {
+    display: none;
   }
 }
 
