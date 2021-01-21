@@ -122,7 +122,7 @@ body {
   }
 
   .home__main {
-    object-fit: scale-down;
+    object-fit: contain !important;
   }
 }
 
