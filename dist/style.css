@@ -106,7 +106,7 @@ body {
   display: none;
 }
 
-@media (max-width: 593px) {
+@media (max-width: 668px) {
   .logo > img {
     display: none;
   }
@@ -119,6 +119,10 @@ body {
 
   .sm-heading {
     font-size: 20px;
+  }
+
+  .home__main {
+    object-fit: scale-down;
   }
 }
 
